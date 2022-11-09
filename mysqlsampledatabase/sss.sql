@@ -1,0 +1,15 @@
+-- Select * from customers;
+-- Select * from transaction;
+-- Select customer_id from customers;
+-- Select transaction_id from transaction;
+-- select distinct purchase_date from transaction;
+-- select * from transaction limit 5;
+-- select * from transaction where customer_id=1343;
+-- select * from transaction where quantity_purchased>7;
+-- select * from customers where customer_lifestage like 'young%';
+-- select * from customers where customer_lifestage like 'Young%';
+-- select *from customers where customer_premium in ('premium','Budget');
+-- select * from transaction where quantity_purchased between 1 and 5;
+-- select * from transaction where quantity_purchased >=1 and quantity_purchased<=5;
+-- select * from customers where customer_lifestage is null;
+-- select * from customers where customer_premium ='Budget' or customer_lifestage='Young families'
